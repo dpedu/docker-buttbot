@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+if test ! -f /srv/buttbot/conf.yml ; then
+    echo "Need config at /srv/buttbot/conf.yml"
+    cp /srv/buttbot/conf.yml.example /srv/buttbot/conf.yml
+    exit 1
+fi
+
+exec ./buttbot.pl

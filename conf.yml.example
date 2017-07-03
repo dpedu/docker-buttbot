@@ -1,10 +1,10 @@
 connection:
-    server: irc.freenode.net
+    server: irc.synirc.net
     port: 6667
-    nick: butt_bot2
+    nick: buttbot__
     username: buttbot
     name: hello I am a new buttbot
-    channels: ['#jesusandhacking']
+    channels: ['#buttbot']
 settings:
     cmd_prefix: '!'
     meme:       butt
@@ -14,8 +14,8 @@ settings:
     invite:     Yes
     reload:     Yes # you probably don't want to change this.
     pass:       unconfigured
-    friends:    { ollien: 1 }
+    friends:    { tef: 1 }
     enemies:    {}
     frequency:
-         friend: 1
+         friend: 37
          normal: 51
